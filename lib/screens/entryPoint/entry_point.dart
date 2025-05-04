@@ -1,12 +1,12 @@
 import 'dart:math';
 import 'package:animated_app/constants.dart';
+import 'package:animated_app/model/menu.dart';
 import 'package:animated_app/screens/home/home_screen.dart';
 import 'package:animated_app/utils/rive_utils.dart';
 import 'package:flutter/material.dart';
 import 'package:rive/rive.dart';
 
 
-import '../../model/menu.dart';
 import 'components/btm_nav_item.dart';
 import 'components/menu_btn.dart';
 import 'components/side_bar.dart';
@@ -72,7 +72,7 @@ class _EntryPointState extends State<EntryPoint>
           AnimatedPositioned(
             width: 288,
             height: MediaQuery.of(context).size.height,
-            duration: const Duration(milliseconds: 200),
+            duration: const Duration(milliseconds: 800),
             curve: Curves.fastOutSlowIn,
             left: isSideBarOpen ? 0 : -288,
             top: 0,

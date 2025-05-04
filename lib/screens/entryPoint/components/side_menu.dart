@@ -34,7 +34,7 @@ class SideMenu extends StatelessWidget {
               left: 0,
               child: Container(
                 decoration: const BoxDecoration(
-                  color: Color(0xFF6792FF),
+                  color: Colors.deepPurpleAccent,
                   borderRadius: BorderRadius.all(Radius.circular(10)),
                 ),
               ),
