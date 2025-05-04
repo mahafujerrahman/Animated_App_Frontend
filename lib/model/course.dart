@@ -14,7 +14,7 @@ class Course {
 
 final List<Course> courses = [
   Course(
-    title: "Animations in SwiftUI",
+    title: "Animations in Modern UI",
   ),
   Course(
     title: "Animations in Flutter",

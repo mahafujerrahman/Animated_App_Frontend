@@ -10,6 +10,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white60,
       body: SafeArea(
         bottom: false,
         child: SingleChildScrollView(
@@ -28,8 +29,7 @@ class HomePage extends StatelessWidget {
               SingleChildScrollView(
                 scrollDirection: Axis.horizontal,
                 child: Row(
-                  children: courses
-                      .map(
+                  children: courses.map(
                         (course) => Padding(
                           padding: const EdgeInsets.only(left: 20),
                           child: CourseCard(
