@@ -1,6 +1,8 @@
-# animated_app
+# Animated App
 
 A new Flutter project.
+
+![Screenshot_20250504_144401](https://github.com/user-attachments/assets/5fef9076-5f24-460b-bac6-ed94cf63637d)
 
 ## Getting Started
 
